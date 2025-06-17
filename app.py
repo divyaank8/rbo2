@@ -54,7 +54,7 @@ Nangloi: Engage lost corporate tie-up, offer relationship-led win-back strategy
 rm_daily_nudge_rbo3_advances = """
 
 ⬆️ <strong>Advances (Total)</strong><br>
-MTD: ₹8.2 Cr vs Target ₹14 Cr 🔹 59% Achieved<br>
+MTD: ₹9.7 Cr vs Target ₹16.5 Cr 🔹 59% Achieved<br>
 ⭐ <strong>Top Branches:</strong><br>
 Nehru Place, Preet Vihar<br>
 🔻 <strong>Bottom Branches:</strong><br>
@@ -99,7 +99,7 @@ Partner with real estate expos, attend project launches and enable digital onboa
 Rani Bagh: Run credit education + pre-check CIBIL <br>
 
 🚗 <strong>Auto Loans</strong><br>
-MTD: ₹1.65 Cr vs Target ₹3.5 Cr 🔹 47% Achieved<br>
+MTD: ₹2.4 Cr vs Target ₹3.5 Cr 🔹 69% Achieved<br>
 ⭐ <strong>Top Branches:</strong><br>
 Preet Vihar, Nehru Place<br>
 🔻 <strong>Bottom Branches:</strong><br>
@@ -325,164 +325,6 @@ Laxmi Nagar, Uttam Nagar<br>
 Optimize cash forecasting using volume trends; tighten vendor oversight.<br>
 Audit and upgrade outdated ATMs to minimize outages.
 """
-
-# RBO 2
-
-rm_daily_nudge_rbo2 = """
-🏦 RM Daily Nudge – RBO‑2<br>
-
-📉 <strong>Alert!</strong> <br>
-Your Region is ranked <strong>5th</strong> in your AO (out of 5 RBOs), <strong>12th</strong> in your Network, and <strong>18th</strong> in your Circle.  
-
-<br>Performance is lagging behind—CASA at 62%, Loan at 48% of MTD budgets. NPA is rising (+32 bps). Significant operational issues noted.  
-
-<br>📈 <strong>Performance Overview</strong>
-💰 Deposits: Deep underperformance—many branches below 50% CASA achievement.<br>
-⬇️ Advances: Loan targets are far from being met.<br>
-⚠️ NPA: Worrying uptick, well above peer average.<br>
-
-⚙️ Operational: Widespread ATM outages and Re‑KYC compliance issues.  <br>
-📌 <strong>Suggested Focus</strong><br>
-🚨 Rapid recovery campaigns for deposits and loans.<br>
-🔧 Immediate fixes on ATMs & KYC compliance.<br>
-👥 Reinforce branch-level accountability.  <br>
-
-🌟 <strong>Top Performing Branches</strong>:<br>
-Vasant Vihar, Malviya Nagar<br>
-🔻 <strong>Bottom Performing Branches</strong>:<br>
-Badarpur, Narela, Trilokpuri<br>
-"""
-
-# 📊 Category‑wise Deep Dive  
-
-rm_daily_nudge_rbo2_deposits = """
-💰 <strong>Deposits (CASA)</strong><br>
-MTD: ₹11.5 Cr vs Target ₹18.5 Cr 🔹 62% Achieved – Underwhelming <br>
-⭐ <strong>Top Branches:</strong>  <br>
-Vasant Vihar, Malviya Nagar  <br>
-🔻 <strong>Bottom Branches:</strong>  <br>
-Badarpur, Narela, Trilokpuri, Ghazipur, Shaheen Bagh  <br>
-📌 <strong>Snapshot:</strong>  <br>
- • 6 branches <45% budget achievement  <br>
- • <strong>Persistent Underperformance:</strong>  <br>
-Badarpur, Narela, Ghazipur  <br>
- • <strong>New Declines:</strong>  <br>
-Trilokpuri: Lost a large corporate account  <br>
-Shaheen Bagh: Salaried accounts shifting due to competitor offers  <br>
-🛠️ <strong>Actions:</strong>  <br>
- • <strong>Persistent Laggards:</strong> <br>
-Micro‑market campaigns, targeted relationship management  <br>
- • <strong>New Declines:</strong>  <br>
-Trilokpuri: Re‑negotiate with institution, offer customized CASA benefits <br> 
-Shaheen Bagh: Run CSP retention drives and promote digital salary credits  <br>
-"""
-
-rm_daily_nudge_rbo2_advances = """
-
-⬆️ <strong>Advances (Total)</strong><br>
-MTD: ₹7.2 Cr vs Target ₹15 Cr 🔹 48% Achieved – Lagging<br>
-⭐ <strong>Top Branches:</strong><br>
-Vasant Vihar, Malviya Nagar<br>
-🔻 <strong>Bottom Branches:</strong><br>
-Badarpur, Narela, Trilokpuri, Ghazipur, Shaheen Bagh   <br><br>
-💼 <strong>SME Loans</strong><br>
-MTD: ₹2.8 Cr vs Target ₹7 Cr 🔹 40% Achieved<br>
-⭐ <strong>Top Branches:</strong><br>
-Vasant Vihar, Malviya Nagar, Janakpuri<br>
-🔻 <strong>Bottom Branches:</strong><br>
-Badarpur, Karol Bagh (persistent), Dwarka Sec-10, Patel Nagar<br>
-📌 <strong>Snapshot:</strong><br>
- • 5 branches <30% budget achievement; 20 >70% budget achievement<br>
- • <strong>Persistent Laggards:</strong><br>
-Badarpur, Karol Bagh + 2 others<br>
- • <strong>New Issues:</strong><br>
-Dwarka Sec-10: High rejection rate (collateral/document gaps)<br>
-Patel Nagar: TAT delays, disbursals lagging by 5 days<br>
-🛠️ <strong>Actions:</strong><br>
- • <strong>All Laggards</strong>: <br>
-Run cluster-based outreach (e.g., “Loan Melas”), trade body engagement<br>
- • <strong>New Issues:</strong><br>
-Dwarka: Push CGTMSE-backed options<br>
-Patel Nagar: Fast-track high-ticket loans, optimize approval flow  <br><br>
-
-🏠 <strong>Housing Loans</strong><br>
-MTD: ₹3.1 Cr vs Target ₹8 Cr 🔹 39% Achieved<br>
-⭐ <strong>Top Branches:</strong><br>
-Vasant Vihar, Malviya Nagar, Lajpat Nagar<br>
-🔻 <strong>Bottom Branches:</strong><br>
-Ghazipur, Narela (persistent); Karol Bagh, Dwarka Sec-10<br>
-📌 <strong>Snapshot:</strong><br>
- • 5 branches <30% budget achievement; 4 branches >70%<br>
- • <strong>Persistent Laggards:</strong><br>
-Ghazipur, Narela + 2 others<br>
- • <strong>New Issues:</strong><br>
-   Karol Bagh: Builder tie-up fallout<br>
-   Dwarka Sec-10: Slow approvals due to back-office overload<br>
-🛠️ <strong>Actions:</strong><br>
- • <strong>All Laggards</strong>: <br>
-Run on-ground housing loan camps with local builders<br>
- • <strong>New Issues:</strong><br>
-Karol Bagh: Rebuild developer relations, offer rate-matching<br>
-Dwarka: Augment back-office team; set SLA-based routing  <br><br>
-
-🚗 <strong>Auto Loans</strong><br>
-MTD: ₹1.5 Cr vs Target ₹4 Cr 🔹 38% Achieved<br>
-⭐ <strong>Top Branches:</strong><br>
-Vasant Vihar, Malviya Nagar, Connaught Place<br>
-🔻 <strong>Bottom Branches:</strong><br>
-Badarpur, Narela (persistent); Shaheen Bagh, Patel Nagar<br>
-📌 <strong>Snapshot:</strong><br>
- • 6 branches <35% achievement; 19 >70%<br>
- • <strong>Persistent Laggards:</strong><br>
-   Badarpur, Narela + 2 others<br>
- • <strong>New Issues:</strong><br>
-Shaheen Bagh: Dealership tie-up expired<br>
-Patel Nagar: Disbursement delays post-sanction<br>
-🛠️ <strong>Actions:</strong><br>
- • <strong>All Laggards</strong>: <br>
- Organize "Drive SBI" weekend camps with top dealers<br>
- • <strong>New Issues:</strong><br>
-Shaheen Bagh: Renew dealer tie-ups, offer bundled schemes<br>
-Patel Nagar: Streamline post-sanction disbursement with SLA tracking<br>
-"""
-
-rm_daily_nudge_rbo2_npa = """
-⚠️<strong>NPA Management:</strong><br>
-Current NPA: 1.82% 🔺 +32 bps vs Target 1.50%  <br>
-⭐ <strong>Top:</strong> Vasant Vihar, Malviya Nagar<br>
-🔻 <strong>Bottom:</strong> Badarpur, Narela, Trilokpuri, Ghazipur<br>
-📌 <strong>Snapshot:</strong><br>
- • Badarpur: SME & Personal loan defaults rising sharply<br>
- • Trilokpuri: Agri‑NPA up ₹0.12 Cr (seasonal stress)<br>
- • Ghazipur: Decline in NPA% but a rise in absolute NPA amounts  <br>
-🛠️ <strong>Actions:</strong>  <br>
- • Finalize restructuring for viable borrowers, escalate recovery  <br>
- • Publish monthly Early Warning reports  <br>
- • Boost legal recovery team and set target SLAs  <br>
-"""
-
-rm_daily_nudge_rbo2_ops = """
-🏧 <strong>ATM Availability</strong><br>
-Uptime: 94% vs Target 95%  25 outages 🔺 Target <20<br>
-⭐ <strong>Top ATMs:</strong> Vasant Vihar, Malviya Nagar<br>
-🔻 <strong>Bottom ATMs:</strong> Badarpur, Narela, Ghazipur, Trilokpuri<br>
-📌 <strong>Snapshot:</strong><br>
- • Badarpur: Recurrent hardware failures, no backup<br>
- • Ghazipur: Frequent cash‑outs, forecasting errors <br>
-🛠️ <strong>Actions:</strong><br>
- • Install backup UPS and upgrade failing ATMs<br>
- • Conduct power and network diagnostics<br>
-<br>
-🗂️ <strong>Re‑KYC Compliance</strong><br>
-Re‑KYC Backlog: 350+ accounts pending<br>
-🛑 <strong>Issues:</strong><br>
- • Understaffed branches leading to documentation delays<br>
- • Low online KYC uptake<br>
-🛠️ <strong>Actions:</strong><br>
- • Launch branch‑assisted digital KYC camps<br>
- • Train staff teams to guide customers through digital process<br>
-"""
-
 
 
 
