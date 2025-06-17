@@ -721,7 +721,7 @@ elif st.session_state.page == "chat":
 
     if st.session_state.get("show_spinner", True):
         with st.spinner(f"Generating insights for {rbo}..."):
-            time.sleep(3.5)
+            time.sleep(2.5)
         st.session_state.show_spinner = False
         st.rerun()
     else:
