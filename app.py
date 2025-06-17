@@ -523,57 +523,64 @@ deep_dive_icons = {
     "Compliance": "✅",
     "How this works?": "🤖"
 }
-# --- Streamlit Page Config ---
-st.set_page_config(page_title="SBI RBO IntelliAI", layout="wide")
 
-# --- SBI Colors ---
-SBI_PRIMARY = "#002B5B"
-SBI_SECONDARY = "#0072BC"
-SBI_LIGHT_BG = "#edf4fa"
-SBI_LIGHTER_BG = "#eef5fc"
+
+
+
+# --- Page Configuration ---
+st.set_page_config(
+    page_title="SBI RBO-1 IntelliAI",
+    page_icon=":bank:",
+    layout="wide"
+)
 
 # --- Custom CSS Styling ---
-st.markdown(f"""
+st.markdown("""
     <style>
-        html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {{
-            background-color: {SBI_LIGHT_BG};
-            color: {SBI_PRIMARY};
+        html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+            background-color: #edf4fa;
+            color: #002B5B;
             font-family: 'Segoe UI', sans-serif;
-        }}
+            margin: 0 !important;
+            padding: 0 !important;
+        }
 
-        .sbi-header {{
-            background-color: {SBI_PRIMARY};
-            padding: 12px 40px;
+
+        .sbi-header {
+            background-color: #002B5B;
+            padding: 12px 40px; /* Added horizontal padding */
+            border-radius: 0; /* Remove border radius for full-width block */
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 100vw;
-            margin-left: -50vw;
-            margin-right: -50vw;
+            margin-bottom: 5px;
+            width: 100vw; /* Full viewport width */
+            position: relative;
             left: 50%;
             right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }}
-
-        .sbi-header img {{
+        }
+        .sbi-header img {
             height: 60px;
             margin-right: 20px;
-        }}
+        }
 
-        .sbi-header-title {{
+        .sbi-header-title {
             font-size: 30px;
             font-weight: 700;
             color: #ffffff;
-        }}
+        }
 
-        .sbi-subtitle {{
+        .sbi-subtitle {
             font-size: 16px;
             color: #cce6ff;
             margin-top: 4px;
-        }}
+        }
 
-        .stButton>button {{
-            background-color: {SBI_SECONDARY};
+        .stButton>button {
+            background-color: #0072BC;
             color: white;
             font-weight: 600;
             font-size: 15px;
@@ -581,50 +588,79 @@ st.markdown(f"""
             border-radius: 8px;
             border: none;
             width: 100%;
-        }}
+        }
 
-        .stButton>button:hover {{
+        .stButton>button:hover {
             background-color: #005A96;
-        }}
+        }
+        .stButton {
+        margin-bottom: 2px; /* 👈 Controls spacing between buttons */
+        }
 
-        .chat-container {{
+        .centered-content {
             display: flex;
             flex-direction: column;
-            gap: 0.5rem;
-            padding: 15px 20px;
-            background-color: white;
-            border: 1px solid #dbe4f0;
-            border-radius: 10px;
-            margin-top: 10px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-        }}
+            align-items: center;
+            text-align: center;
+            margin-top: 0px;
+        }
 
-        .chat-bubble {{
+        h1, h2, h3 {
+            color: #002B5B;
+        }
+
+        .chat-container {
             padding: 10px 15px;
-            border-radius: 12px;
-            max-width: 85%;
-            word-wrap: break-word;
+            background-color: #ffffff;
+            border: 1px solid #dbe4f0;
+            border-radius: 5px;
+            margin-top: 5px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+
+        .chat-bubble.bot {
+            background-color: #eef5fc;
+            color: #002B5B;
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
             font-size: 15px;
-        }}
+        }
 
-        .chat-bubble.bot {{
-            align-self: flex-start;
-            background-color: {SBI_LIGHTER_BG};
-            color: {SBI_PRIMARY};
-        }}
+        .back-btn-container {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 1rem;
+        }
+        .back-btn-container button {
+            width: auto !important;
+            min-width: 120px;
+            padding: 0.3rem 0.75rem;
+            font-size: 0.9rem;
+            border-radius: 6px;
+        }
+        
+        
+        
+            button span {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+        
 
-        .chat-bubble.user {{
-            align-self: flex-end;
-            background-color: #d9fdd3;
-            color: {SBI_PRIMARY};
-        }}
-    </style>
+        </style>
+
+        
+    
+
 """, unsafe_allow_html=True)
 
 # --- SBI Header Block ---
-st.markdown(f"""
+st.markdown("""
     <div class="sbi-header">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/SBI-logo.svg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/SBI-logo.svg" class="header-img">
         <div>
             <div class="sbi-header-title">SBI RBO IntelliAI</div>
             <div class="sbi-subtitle">Data-driven GenAI intelligence</div>
@@ -632,60 +668,134 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-# --- Initialize session state ---
+# --- Page Routing with Session State ---
+#if "page" not in st.session_state:
+#    st.session_state.page = "home"
+
 if "page" not in st.session_state:
-    st.session_state.page = "chat"
-    st.session_state.selected_rbo = "RBO-2"
+    st.session_state.page = "chat"  # 👈 Open chat page by default
+    st.session_state.selected_rbo = "RBO-2"  # 👈 Hardcoded RBO
     st.session_state.show_spinner = True
-    st.session_state.chat_log = []
 
-# --- RBO Summaries and Deep Dives ---
-# These must already be defined (your provided snippet):
-# rbo_summaries, rbo_deep_dives, deep_dive_icons
 
-# --- Homepage (optional) ---
+
+# --- Navigation: Homepage ---
 if st.session_state.page == "home":
     st.markdown("""
         <div style="text-align: center; padding-top: 10px; padding-bottom: 20px;">
             <h3>👋 Welcome to your <br> RBO IntelliAI Assistant</h3>
             <h5>💡 Start your day with data-driven intelligence!</h5>
+            <p style="font-size: 16px;">
+                Choose a Regional Business Office to start a smart, insight-driven conversation about its performance and opportunities.
+            </p>
         </div>
     """, unsafe_allow_html=True)
 
+    # --- Horizontally aligned RBO Buttons with Equal Width ---
     col1, col2 = st.columns(2)
     rbo_names = ["RBO-1", "RBO-2"]
+    rbo_cols = [col1, col2]
 
-    for col, rbo in zip([col1, col2], rbo_names):
+    for col, rbo in zip(rbo_cols, rbo_names):
         with col:
             if st.button(rbo):
                 st.session_state.selected_rbo = rbo
                 st.session_state.page = "chat"
-                st.session_state.chat_log = []
-                st.session_state.show_spinner = True
-                st.rerun()
+                st.session_state.show_spinner = True  # 🔁 Reset spinner every time
 
-# --- Chat Page ---
+                st.rerun()
+                
+                
+                
+                
+                
+                
+                
+                
+  # --- CHAT PAGE ---
+  
+  
+# --- CHAT PAGE ---
 elif st.session_state.page == "chat":
-    rbo = st.session_state.selected_rbo
+
+    rbo = st.session_state.get("selected_rbo", "RBO-1")
+
     st.markdown(f"#### 💬 IntelliAI Chat for {rbo}")
 
     if st.session_state.get("show_spinner", True):
         with st.spinner(f"Generating insights for {rbo}..."):
-            time.sleep(2.5)
+            time.sleep(2)
         st.session_state.show_spinner = False
         st.rerun()
 
-    # --- Initial RBO Summary ---
+    if "chat_log" not in st.session_state:
+        st.session_state.chat_log = []
+
+    if "selected_deep_dives" not in st.session_state:
+        st.session_state.selected_deep_dives = []
+
+    # --- Inject styles ---
+    st.markdown("""
+    <style>
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 15px 20px;
+            background-color: #ffffff;
+            border: 1px solid #dbe4f0;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+
+        .chat-bubble {
+            padding: 10px 15px;
+            border-radius: 12px;
+            max-width: 85%;
+            word-wrap: break-word;
+            font-size: 15px;
+        }
+
+        .chat-bubble.bot {
+            align-self: flex-start;
+            background-color: #eef5fc;
+            color: #002B5B;
+        }
+
+        .chat-bubble.user {
+            align-self: flex-end;
+            background-color: #d9fdd3;
+            color: #002B5B;
+        }
+
+        .stButton > button {
+            padding: 0.4rem 0.6rem;
+            font-size: 0.83rem;
+            margin: 2px;
+            border-radius: 6px;
+
+        }
+        .stButton {
+            margin-bottom: 2px; /* 👈 Controls spacing between buttons */
+        }
+
+    </style>
+    """, unsafe_allow_html=True)
+
+    # --- Display RBO summary as first bot message ---
     with st.container():
         st.markdown(f"""
             <div class="chat-container">
                 <div class="chat-bubble bot">
                     {rbo_summaries.get(rbo, 'No summary available.')}
-                </div>
-            </div>
-        """, unsafe_allow_html=True)
 
-    # --- Display previous deep dive chats ---
+        """, unsafe_allow_html=True)
+    
+
+
+
+    # --- Display chat log for each selected deep dive ---
     for dive in st.session_state.chat_log:
         icon = deep_dive_icons.get(dive, "📂")
         response = rbo_deep_dives[rbo].get(dive, "No insights available.")
@@ -696,24 +806,27 @@ elif st.session_state.page == "chat":
             </div>
         """, unsafe_allow_html=True)
 
-    # --- Display deep dive options ---
-    available_dives = list(rbo_deep_dives[rbo].keys())
-    remaining_dives = [d for d in available_dives if d not in st.session_state.chat_log]
+    # --- Show deep dive buttons at the bottom ---
+    if rbo in rbo_deep_dives:
 
-    if remaining_dives:
-        st.markdown(f"""
-            <div class="chat-container">
-                <div class="chat-bubble bot">
-                    Would you like to explore specific segments? Click below:
+        deep_dive_options = list(rbo_deep_dives[rbo].keys())
+        remaining_dive_options = [d for d in deep_dive_options if d not in st.session_state.chat_log]
+
+        if remaining_dive_options:
+            st.markdown(f"""
+                <div class="chat-container">
+                    <div class="chat-bubble bot">
+                        Select a segment to explore insights:
+                    </div>
                 </div>
-            </div>
-        """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
 
-        cols = st.columns(len(remaining_dives))
-        for i, dive in enumerate(remaining_dives):
-            with cols[i]:
-                icon = deep_dive_icons.get(dive, "📂")
-                label = f"{icon} {dive}"
-                if st.button(label, key=f"btn_{rbo}_{dive}"):
-                    st.session_state.chat_log.append(dive)
-                    st.rerun()
+            cols = st.columns(len(remaining_dive_options), gap="small")
+
+            for i, dive in enumerate(remaining_dive_options):
+                with cols[i]:
+                    icon = deep_dive_icons.get(dive, "📂")
+                    label = f"{icon} {dive}"
+                    if st.button(label, key=f"btn_{dive}", use_container_width=True):
+                        st.session_state.chat_log.append(dive)
+                        st.rerun()
