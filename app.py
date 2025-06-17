@@ -10,7 +10,7 @@ rm_daily_nudge_rbo3 = """
 
 Your region is currently ranked <strong>3rd</strong> in your AO (out of 5 RBOs), <strong>10th</strong> in your Network, and <strong>20th</strong> in your Circle.    
 
-Performance has been mixed – CASA and Loan achievements hover around 60–65% of MTD targets. NPA is marginally above threshold, and there are multiple improvement opportunities across.<br>
+Performance has been mixed – CASA and Loan achievements hover around 60% of MTD targets. NPA is marginally above threshold, and there are multiple improvement opportunities across segments.<br>
 
 📈 <strong>Performance Overview</strong><br>
 💰 Deposits: Moderate CASA achievement, but several branches with <50% performance.<br>
@@ -43,8 +43,10 @@ Laxmi Nagar, Rani Bagh, Nangloi, Shastri Nagar <br>
  • <strong>New Declines:</strong> <br>
  Nangloi – drop due to salary account shift<br>
 🛠️ <strong>Actions:</strong><br>
+ • <strong>All Laggards</strong>: <br>
 Map nearby corporates/intitutions and pitch bulk account onboarding with dedicated. <br>
-Address Nangloi shift: Engage lost corporate tie-up, offer relationship-led win-back strategy  
+ • <strong>New Declines:</strong><br>
+Nangloi: Engage lost corporate tie-up, offer relationship-led win-back strategy  
 """
 
 
@@ -108,13 +110,13 @@ Nangloi, Seelampur, Laxmi Nagar<br>
    Laxmi Nagar + 3 others<br>
  • <strong>New Issues:</strong><br>
    Nangloi: Disbursement delays post-sanction<br>
-   Seelampur: Inconsistent presence of on-site officers at dealerships hampering lead conversion.<br>
+   Seelampur: Inconsistent presence of on-site officers at dealerships hampering lead sourcing.<br>
 🛠️ <strong>Actions:</strong><br>
 • <strong>All Laggards:</strong><br>
   Re-engage dealers with improved incentives.<br>
 • <strong>New Issues:</strong><br>
 Nangloi: Streamline post-sanction disbursement<br>
-Seelampur: Enforce presence of on-site officers to ensure timely, real-time loan sourcing.
+Seelampur: Enforce presence of on-site officers to ensure timely, real-time lead sourcing.
 <br>
 """
 
@@ -130,8 +132,8 @@ Nangloi: ₹0.72 Cr SME NPA<br>
 Rani Bagh: ₹0.28 Cr SME NPA<br>
 Shastri Nagar: ₹0.15 Cr HL NPA<br>
 🛠️ <strong>Actions:</strong><br>
-Launch aggressive recovery drives in SME backed by early-warning signals<br>
-Proactive restructuring for eligible borrowers (esp. SME). Intensify collections, legal action, post-disbursal checks<br>
+Launch aggressive recovery drives in SME, using early-warning signals.<br>
+Proactive restructuring for eligible borrowers (esp. SME), intensify post-disbursal checks.<br>
 """
 
 rm_daily_nudge_rbo3_ops = """
@@ -529,7 +531,7 @@ deep_dive_icons = {
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="SBI RBO-1 IntelliAI",
+    page_title="SBI RBO-2 IntelliAI",
     page_icon=":bank:",
     layout="wide"
 )
