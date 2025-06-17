@@ -16,7 +16,7 @@ Performance has been mixed – CASA and Loan achievements hover around 60% of MT
 💰 Deposits: Moderate CASA achievement, but several branches with <50% performance.<br>
 ⬆️ Advances: Housing and SME Loans are lagging with low conversion and sourcing issues.<br>
 ⚠️ NPA: Slightly elevated NPA levels with increasing stress in SME segments.<br>
-⚙️ Operational: No major issues of ATM outages or availablity.<br>
+⚙️ Operational: No major issues reported for ATM outages or availability.<br>
 
 📌 <strong>Suggested Focus</strong><br>
 Boost CASA via localized outreach and focused acquisition from salary & institutional segments.<br>
@@ -24,29 +24,29 @@ Improve loan sourcing and reduce rejections by strengthening lead quality, docum
 Contain NPA through early alerts and segment-wise resolution strategies.<br>
 
 🌟 <strong>Top Performing Branches</strong>:<br>
-Preet Vihar, Nehru Place<br>
+Ashok Vihar, East of Kailash, Kailash Colony<br>
 🔻 <strong>Bottom Performing Branches</strong>:<br>
-Laxmi Nagar, Shastri Nagar, Nangloi, Rani Bagh
+Sangam Vihar, Madangir, Trilokpuri
 """
 
 rm_daily_nudge_rbo3_deposits = """
 💰 <strong>Deposits (CASA)</strong><br>
 MTD: ₹10.8 Cr vs Target ₹18 Cr 🔹 60% Achieved – Room for growth.<br>
 ⭐ <strong>Top Branches:</strong>  <br>
-Preet Vihar, Nehru Place, Krishna Nagar  <br>
+Ashok Vihar, East of Kailash, Kailash Colony  <br>
 🔻<strong>Bottom Branches:</strong>  <br>
-Laxmi Nagar, Rani Bagh, Nangloi, Shastri Nagar <br>
+Bhajanpura, Mangolpuri, Rajokri <br>
 📌 <strong>Snapshot:</strong><br>
  • 12 branches <50% budget achievement<br>
  • <strong>Persistent Laggards:</strong> <br>
- Laxmi Nagar, Shastri Nagar, Rani Bagh  <br>
+ Bhajanpura, Mangolpuri + 2 others  <br>
  • <strong>New Declines:</strong> <br>
- Nangloi – drop due to salary account shift<br>
+ Rajokri – drop due to salary account shift<br>
 🛠️ <strong>Actions:</strong><br>
  • <strong>All Laggards</strong>: <br>
-Map nearby corporates/intitutions and pitch bulk account onboarding with dedicated. <br>
+Map nearby corporates/institutions and pitch bulk account onboarding with dedicated. <br>
  • <strong>New Declines:</strong><br>
-Nangloi: Engage lost corporate tie-up, offer relationship-led win-back strategy  
+Rajokri: Engage lost corporate tie-up, offer relationship-led win-back strategy  
 """
 
 
@@ -56,71 +56,69 @@ rm_daily_nudge_rbo3_advances = """
 ⬆️ <strong>Advances (Total)</strong><br>
 MTD: ₹9.7 Cr vs Target ₹16.5 Cr 🔹 59% Achieved<br>
 ⭐ <strong>Top Branches:</strong><br>
-Nehru Place, Preet Vihar<br>
+Naraina Vihar, Sukhdev Vihar, Netaji Subhash Place<br>
 🔻 <strong>Bottom Branches:</strong><br>
-Nangloi, Rani Bagh, Laxmi Nagar, Shastri Nagar<br><br>
+Trilokpuri, Mangolpuri, Rajokri, Bhajanpura, Jharoda Kalan<br><br>
 
 💼 <strong>SME Loans</strong><br>
 MTD: ₹3.4 Cr vs Target ₹6 Cr 🔹 56% Achieved<br>
 ⭐ <strong>Top Branches:</strong><br>
 Nehru Place, Preet Vihar<br>
 🔻 <strong>Bottom Branches:</strong><br>
-Nangloi, Laxmi Nagar, Rani Bagh<br>
+Trilokpuri, Mangolpuri, Rajokri, Bhajanpura<br>
 📌 <strong>Snapshot:</strong><br>
  • 4 branches <30% budget achievement; 15 >60%<br>
  • <strong>Persistent Laggards:</strong><br>
-   Nangloi, Rani Bagh<br>
+   Bhajanpura, Mangolpuri + 4 others<br>
  • <strong>New Issues:</strong><br>
-   Laxmi Nagar: Delays in collateral valuation, slow TAT<br>
+   Trilokpuri: Delays in collateral valuation, slow TAT<br>
 🛠️ <strong>Actions:</strong><br>
 • <strong>All Laggards:</strong><br>
 Suggest tailored loan products for distinct SME segments 
 (e.g., working capital finance, machinery loans, startup credit).<br>
 Proactively deepen client relationships.<br>
 • <strong>New Issues:</strong><br>
- Laxmi Nagar: Engage approved valuers to reduce bottlenecks<br>
+ Trilokpuri: Engage approved valuers to reduce bottlenecks<br>
 
 🏠 <strong>Housing Loans</strong><br>
 MTD: ₹3.9 Cr vs Target ₹7 Cr 🔹 55% Achieved<br>
 ⭐ <strong>Top Branches:</strong><br>
-Preet Vihar, Krishna Nagar<br>
+Golf Links, Kailash Colony, Sukhdev Vihar<br>
 🔻 <strong>Bottom Branches:</strong><br>
-Rani Bagh, Laxmi Nagar, Shastri Nagar<br>
+Bhajanpura, Mangolpuri, Rajokri<br>
 📌 <strong>Snapshot:</strong><br>
  • 3 branches <40% of target; 10 >65%<br>
  • <strong>Persistent Laggards:</strong><br>
-   Shastri Nagar + 3 others<br>
+   Bhajanpura, Mangolpuri + 3 others<br>
  • <strong>New Issues:</strong><br>
- Rani Bagh: Multiple CIBIL-based rejections (<680 scores)<br>
+ Rajokri: Multiple CIBIL-based rejections (<680 scores)<br>
 🛠️ <strong>Actions:</strong><br>
 • <strong>All Laggards:</strong><br>
 Partner with real estate expos, attend project launches and enable digital onboarding for quicker processing. 
 <br><strong>New Issues:</strong><br>
-Rani Bagh: Run credit education + pre-check CIBIL <br>
+Rajokri: Conduct credit education sessions and implement pre-checks on CIBIL scores <br>
 
 🚗 <strong>Auto Loans</strong><br>
 MTD: ₹2.4 Cr vs Target ₹3.5 Cr 🔹 69% Achieved<br>
 ⭐ <strong>Top Branches:</strong><br>
-Preet Vihar, Nehru Place<br>
+Netaji Subhash Place, Naraina Vihar, Golf Links<br>
 🔻 <strong>Bottom Branches:</strong><br>
-Nangloi, Seelampur, Laxmi Nagar<br>
+Bhajanpura, Mangolpuri, Rajokri, Trilokpuri, Kalkaji Extension<br>
 📌 <strong>Snapshot:</strong><br>
  • 4 branches <30% of target; 12 >55%<br>
  • <strong>Persistent Laggards:</strong><br>
-   Laxmi Nagar + 3 others<br>
+   Mangolpuri, Rajokri, Trilokpuri + 3 others<br>
  • <strong>New Issues:</strong><br>
-   Nangloi: Disbursement delays post-sanction<br>
-   Seelampur: Inconsistent presence of on-site officers at dealerships hampering lead sourcing.<br>
+   Kalkaji Extension: Disbursement delays post-sanction<br>
+   Bhajanpura: Inconsistent presence of on-site officers at dealerships hampering lead sourcing.<br>
 🛠️ <strong>Actions:</strong><br>
 • <strong>All Laggards:</strong><br>
   Re-engage dealers with improved incentives.<br>
 • <strong>New Issues:</strong><br>
-Nangloi: Streamline post-sanction disbursement<br>
-Seelampur: Enforce presence of on-site officers to ensure timely, real-time lead sourcing.
+Kalkaji Extension: Streamline post-sanction disbursement<br>
+Bhajanpura: Enforce presence of on-site officers to ensure timely, real-time lead sourcing.
 <br>
 """
-
-
 
 
 
@@ -128,9 +126,9 @@ rm_daily_nudge_rbo3_npa = """
 ⚠️ <strong>NPA Management</strong><br>
 Current NPA: 1.91% 🔺 +12 bps vs Target 1.65% → ₹2.7 Cr total NPA<br>
 📌 <strong>Key Branches:</strong><br>
-Nangloi: ₹0.72 Cr SME NPA<br>
-Rani Bagh: ₹0.28 Cr SME NPA<br>
-Shastri Nagar: ₹0.15 Cr HL NPA<br>
+Sangam Vihar: ₹0.72 Cr SME NPA<br>
+Trilokpuri: ₹0.28 Cr SME NPA<br>
+ East of Kailash: ₹0.15 Cr HL NPA<br>
 🛠️ <strong>Actions:</strong><br>
 Launch aggressive recovery drives in SME, using early-warning signals.<br>
 Proactive restructuring for eligible borrowers (esp. SME), intensify post-disbursal checks.<br>
@@ -139,9 +137,9 @@ Proactive restructuring for eligible borrowers (esp. SME), intensify post-disbur
 rm_daily_nudge_rbo3_ops = """
 🏧 <strong>ATM & Operational Performance</strong><br>
 Uptime: 97% vs Target 95%<br>
-⭐ <strong>Top ATMs:</strong> <br>Vasant Vihar, Malviya Nagar<br>
+⭐ <strong>Top ATMs:</strong> <br>Ashok Vihar, Mangolpuri, Tilak Marg<br>
 🔻 <strong>Low Performing ATMs:</strong><br>
-Laxmi Nagar, Shastri Nagar, Seelampur<br>
+Gokalpur, Uttam Nagar<br>
 📌 <strong>Issues:</strong><br>
 Cashouts: Poor cash load forecasting in 4 branches<br>
 🛠️ <strong>Actions:</strong><br>
@@ -341,7 +339,7 @@ rbo_deep_dives = {
         "Advances": rm_daily_nudge_rbo3_advances,
         "Operations": rm_daily_nudge_rbo3_ops,
         "NPA": rm_daily_nudge_rbo3_npa,
-        "How this works?": rm_daily_nudge_agent,
+        "How does this work?": rm_daily_nudge_agent,
 
 
     },
@@ -350,7 +348,7 @@ rbo_deep_dives = {
         "Advances": rm_daily_nudge_rbo1_advances,
         "Operations": rm_daily_nudge_rbo1_ops,
         "NPA": rm_daily_nudge_rbo1_npa,
-                "How this works?": rm_daily_nudge_agent,
+                "How does this work?": rm_daily_nudge_agent,
 
 
     },
@@ -365,7 +363,7 @@ deep_dive_icons = {
     "NPA": "📉",
     "Cross-Sell & Digital": "📱",
     "Compliance": "✅",
-    "How this works?": "🤖"
+    "How does this work?": "🤖"
 }
 
 
