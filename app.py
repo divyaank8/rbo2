@@ -70,14 +70,14 @@ Trilokpuri, Mangolpuri, Rajokri, Bhajanpura<br>
  • 4 branches <30% budget achievement; 15 >60%<br>
  • <strong>Persistent Laggards:</strong><br>
    Bhajanpura, Mangolpuri + 4 others<br>
- • <strong>Recent Laggards:</strong><br>
+ • <strong>Recent Declines:</strong><br>
    Trilokpuri: Delays in collateral valuation, slow TAT<br>
 🛠️ <strong>Actions:</strong><br>
 • <strong>All Laggards:</strong><br>
 Suggest tailored loan products for distinct SME segments 
 (e.g., working capital finance, machinery loans, startup credit).<br>
 Proactively deepen client relationships.<br>
-• <strong>Recent Laggards:</strong><br>
+• <strong>Recent Declines:</strong><br>
  Trilokpuri: Engage approved valuers to reduce bottlenecks<br>
 
 🏠 <strong>Housing Loans</strong><br>
@@ -90,12 +90,12 @@ Bhajanpura, Mangolpuri, Rajokri<br>
  • 3 branches <40% of target; 10 >65%<br>
  • <strong>Persistent Laggards:</strong><br>
    Bhajanpura, Mangolpuri + 3 others<br>
- • <strong>Recent Laggards:</strong><br>
+ • <strong>Recent Declines:</strong><br>
  Rajokri: Multiple CIBIL-based rejections (<680 scores)<br>
 🛠️ <strong>Actions:</strong><br>
 • <strong>All Laggards:</strong><br>
 Partner with real estate expos, attend project launches and enable digital onboarding for quicker processing.
-<br>•<strong>Recent Laggards:</strong><br>
+<br>•<strong>Recent Declines:</strong><br>
 Rajokri: Conduct credit education sessions and implement pre-checks on CIBIL scores <br>
 
 🚗 <strong>Auto Loans</strong><br>
@@ -108,13 +108,13 @@ Bhajanpura, Mangolpuri, Rajokri, Trilokpuri, Kalkaji Extension<br>
  • 4 branches <30% of target; 12 >55%<br>
  • <strong>Persistent Laggards:</strong><br>
    Mangolpuri, Rajokri, Trilokpuri + 3 others<br>
- • <strong>Recent Laggards:</strong><br>
+ • <strong>Recent Declines:</strong><br>
    Kalkaji Extension: Disbursement delays post-sanction<br>
    Bhajanpura: Inconsistent presence of on-site officers at dealerships hampering lead sourcing.<br>
 🛠️ <strong>Actions:</strong><br>
 • <strong>All Laggards:</strong><br>
   Re-engage dealers with improved incentives.<br>
-• <strong>Recent Laggards:</strong><br>
+• <strong>Recent Declines:</strong><br>
 Kalkaji Extension: Streamline post-sanction disbursement<br>
 Bhajanpura: Enforce presence of on-site officers to ensure timely, real-time lead sourcing.
 <br>
