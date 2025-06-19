@@ -23,9 +23,9 @@ Boost CASA via localized outreach and focused acquisition from salary & institut
 Improve loan sourcing and reduce rejections by strengthening lead quality, documentation support, and TAT.<br>
 Contain NPA through early alerts and segment-specific resolution strategies.<br>
 
-🌟 <strong>Top Performing Branches</strong>:<br>
+🌟 <strong>Top Performing branches</strong>:<br>
 Ashok Vihar, East of Kailash, Kailash Colony<br>
-🔻 <strong>Bottom Performing Branches</strong>:<br>
+🔻 <strong>Bottom Performing branches</strong>:<br>
 Sangam Vihar, Madangir, Trilokpuri
 """
 
@@ -125,7 +125,7 @@ Bhajanpura: Enforce presence of on-site officers to ensure timely, real-time lea
 rm_daily_nudge_rbo3_npa = """
 ⚠️ <strong>NPA Management</strong><br>
 Current NPA: 1.91% 🔺 +12 bps vs Target 1.65% → ₹2.7 Cr total NPA<br>
-📌 <strong>Key Branches:</strong><br>
+📌 <strong>Key branches:</strong><br>
 Sangam Vihar: ₹0.72 Cr SME NPA<br>
 Trilokpuri: ₹0.28 Cr SME NPA<br>
  East of Kailash: ₹0.15 Cr HL NPA<br>
